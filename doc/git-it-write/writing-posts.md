@@ -4,7 +4,7 @@ menu_order: 2
 taxonomy:
     category: 
         - wordpress-plugins
-	post_tag:
+    post_tag:
         - tag-1
         - tag-2
 ---

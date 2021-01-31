@@ -3,10 +3,10 @@ title: Getting started
 menu_order: 1
 taxonomy:
     category: 
-		- wordpress-plugins
-	post_tag:
+        - wordpress-plugins
+    post_tag:
         - tag-1
-        - tag-2wordpress-plugins
+        - tag-2
 ---
 
 Using "Git it write" WordPress plugin, you can publish markdown present in a Github repository.

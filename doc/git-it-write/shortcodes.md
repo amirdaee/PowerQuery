@@ -3,8 +3,8 @@ title: Shortcodes
 menu_order: 3
 taxonomy:
     category: 
-		- wordpress-plugins
-	post_tag:
+        - wordpress-plugins
+    post_tag:
         - tag-1
         - tag-2
 ---
