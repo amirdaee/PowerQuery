@@ -12,7 +12,7 @@ taxonomy:
         - tag-1
         - tag-2
 custom_fields:
-    field1: value 1
+    custom_post_sort: 10
     field2: value 2
 
 ---
