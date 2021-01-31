@@ -2,7 +2,11 @@
 title: FAQ
 menu_order: 4
 taxonomy:
-    doc_category: wordpress-plugins
+    category: 
+		- wordpress-plugins
+	post_tag:
+        - tag-1
+        - tag-2
 ---
 
 ### What is this plugin for ?
