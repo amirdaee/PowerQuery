@@ -3,7 +3,7 @@ title: Writing posts
 menu_order: 2
 taxonomy:
     category: 
-		- wordpress-plugins
+        - wordpress-plugins
 	post_tag:
         - tag-1
         - tag-2

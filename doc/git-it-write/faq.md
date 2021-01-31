@@ -3,7 +3,7 @@ title: FAQ
 menu_order: 4
 taxonomy:
     category: 
-		- wordpress-plugins
+        - wordpress-plugins
 	post_tag:
         - tag-1
         - tag-2
