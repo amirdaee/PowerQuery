@@ -2,12 +2,14 @@
 title: Getting started
 menu_order: 1
 taxonomy:
-    category: 
-        - wordpress-plugins
-    post_tag:
-        - tag-1
-        - tag-2
+  category:
+    - wordpress-plugins
+  post_tag:
+    - tag-1
+    - tag-2
 ---
+
+# getting-started
 
 Using "Git it write" WordPress plugin, you can publish markdown present in a Github repository.
 
@@ -17,17 +19,17 @@ Since posts are published from a Github repository, you should have a public Git
 
 ## Adding the repository to the plugin
 
-Once you have a Github repository (or if you wish to pull from another public repository) you can configure Git it write plugin on the same. Your repository will have an owner and the name of the repository itself. This information is used to configure in the plugin settings page.
+Once you have a Github repository \(or if you wish to pull from another public repository\) you can configure Git it write plugin on the same. Your repository will have an owner and the name of the repository itself. This information is used to configure in the plugin settings page.
 
 It does not matter if your repository is new, empty, old with files already. Below configuration can be done anytime.
 
-1. Install and activate the plugin from WordPress -> Add new
-1. Go to Settings -> Git it write
-1. Click "Add a new repository to publish posts from"
-1. In the add repository page, enter the repository owner and the name.
-1. Enter the path of the folder in the repository you would like to publish in your website.
-1. Select a post type to which posts have to be published. A hierarchial post type is preferred as it allows parent, child posts in a tree like structure provided custom permalinks are configured in your site. Read [FAQ](./faq.md) for more information on this.
-1. Save the settings.
+1. Install and activate the plugin from WordPress -&gt; Add new
+2. Go to Settings -&gt; Git it write
+3. Click "Add a new repository to publish posts from"
+4. In the add repository page, enter the repository owner and the name.
+5. Enter the path of the folder in the repository you would like to publish in your website.
+6. Select a post type to which posts have to be published. A hierarchial post type is preferred as it allows parent, child posts in a tree like structure provided custom permalinks are configured in your site. Read [FAQ](faq.md) for more information on this.
+7. Save the settings.
 
 ## The webhook
 
@@ -35,12 +37,12 @@ Github Webhook allows to notify the plugin whenever the files in the repository 
 
 If you do not own the repository then you cannot configure webhooks. Also if you do not wish to automatically update posts, then you can skip configuring the webhook.
 
-1. Go to Settings -> Git it write settings page.
-1. Under "General settings" enter a secret key which will be used by all the Github repositories you configure.
-1. Go to Github repository settings -> Webhook and add a webhook for the payload URL as mentioned in the settings page.
-1. Enter the same secret key in Github webhook settings page.
-1. Set the remaining webhook settings accordingly as mentioned.
-1. Save the settings.
+1. Go to Settings -&gt; Git it write settings page.
+2. Under "General settings" enter a secret key which will be used by all the Github repositories you configure.
+3. Go to Github repository settings -&gt; Webhook and add a webhook for the payload URL as mentioned in the settings page.
+4. Enter the same secret key in Github webhook settings page.
+5. Set the remaining webhook settings accordingly as mentioned.
+6. Save the settings.
 
 Webhook is now configured. So whenever repository changes, the payload URL will be notified and the plugin will take care of adding/updating the posts.
 
@@ -50,7 +52,7 @@ Markdown is a simple markup language which allows to easily write formatted text
 
 You can now organize the files in folders as you need and write your posts using markdown format.
 
-See [writing posts](./writing-posts.md) page for more information on this.
+See [writing posts](writing-posts.md) page for more information on this.
 
 ## Publishing the posts
 
@@ -70,3 +72,4 @@ There are two types of pull:
 ## Viewing logs
 
 When posts are published by the plugin, all the file-by-file activities are logged. The logs can be seen using the "Logs" link in the settings page. This is helpful to debug and get to know when posts are published.
+

@@ -2,12 +2,14 @@
 title: Writing posts
 menu_order: 2
 taxonomy:
-    category: 
-        - wordpress-plugins
-    post_tag:
-        - tag-1
-        - tag-2
+  category:
+    - wordpress-plugins
+  post_tag:
+    - tag-1
+    - tag-2
 ---
+
+# writing-posts
 
 With Git it write plugin you can write your WordPress posts in markdown format at the comfort of your favorite IDE.
 
@@ -19,7 +21,7 @@ Right now only "markdown" files `.md` are supported by the plugin. Please refer 
 
 ## File name
 
-Git it write considers the file name as the post slug i.e if the name of the file is `getting-started.md` then the post slug is `getting-started`. 
+Git it write considers the file name as the post slug i.e if the name of the file is `getting-started.md` then the post slug is `getting-started`.
 
 It is recommended to use standard characters and avoid space as file names as the file name and post slug are used as identifiers. Having a standard name will maintain same post slug as the file name.
 
@@ -44,7 +46,7 @@ Below post properties are supported right now.
 
 ### Example
 
-```
+```text
 ---
 title: Title of the post
 menu_order: 1
@@ -82,3 +84,4 @@ Please refer [this repository](https://github.com/vaakash/test/) for an example 
 Links can be added normally as per markdown syntax. It is preferred to use relative links to refer any post in the repository i.e to refer any post in the same directory use `./faq.md` as the link value. Git it write will convert it to `/faq/` before publishing. By doing this, the markdown files are linked correctly both in the github page and in your main website.
 
 **Example:** `../guide/doc1.md` will link a `doc1.md` file from the `guide` folder one level up relatively. Similarly `.` can be used for current directory and `/` to refer the file from the root of the repository i.e `/folder1/folder2/doc2.md`.
+

@@ -2,12 +2,14 @@
 title: Shortcodes
 menu_order: 3
 taxonomy:
-    category: 
-        - wordpress-plugins
-    post_tag:
-        - tag-1
-        - tag-2
+  category:
+    - wordpress-plugins
+  post_tag:
+    - tag-1
+    - tag-2
 ---
+
+# shortcodes
 
 ## Edit link shortcode
 
@@ -19,9 +21,10 @@ This shortcode can be added in plugin repository settings page under "post conte
 
 * `post_id` - The ID of the post to display edit link for. Default: Current post.
 * `text` - The link text. Default: "Edit this page"
-* `icon` - The icon to display inside link. Default: A fontawesome icon `<i class="fas fa-pen"></i> &nbsp; `
+* `icon` - The icon to display inside link. Default: A fontawesome icon `<i class="fas fa-pen"></i> &nbsp;`
 * `auto_p` - To wrap the link inside paragraph tag. Default: `false`
 
 ## Using in themes
 
 The shortcode can be used in theme directly using the `do_shortcode` function `echo do_shortcode( '[print_sc sc="{giw_edit_link}"]' );`
+
