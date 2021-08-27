@@ -1,7 +1,7 @@
 # Table of contents
 
 * [معرفی اساتید](README.md)
-* [doc](doc/README.md)
+* [مستندات توابع پاور کوئری](doc/README.md)
   * [List-Accumulate](doc/list-accumulate.md)
   * [git-it-write](doc/git-it-write/README.md)
     * [faq](doc/git-it-write/faq.md)
